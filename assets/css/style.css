@@ -19,7 +19,7 @@
 }
 
 .ui-menu-color-download {
-    background-color: #525252;
+    background-color:green;
 }
 
 /* ---------------------------heading------------*/
@@ -44,6 +44,7 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
+
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 100;
@@ -67,6 +68,10 @@ header {
 
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 #nav li {
@@ -102,5 +107,11 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
 
+/* ---------------------------Hover.css------------*/
+
+.hvr-radial-out:before{
+    background:rgba(0,0,0,.2);
+    height:120px;
 }
