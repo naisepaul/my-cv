@@ -19,7 +19,26 @@
 }
 
 .ui-menu-color-download {
-    background-color:green;
+    background-color: green;
+}
+
+/* ---------------------------special margins/paddings/texts------------*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
 }
 
 /* ---------------------------heading------------*/
@@ -76,12 +95,12 @@ header {
 
 #nav li {
     font-size: 14px;
-    padding: 0;    
+    padding: 0;
 }
 
-.menuitem{
+.menuitem {
     height: 120px;
-    text-align : center;
+    text-align: center;
     padding: 0;
 }
 
@@ -111,7 +130,15 @@ header {
 
 /* ---------------------------Hover.css------------*/
 
-.hvr-radial-out:before{
-    background:rgba(0,0,0,.2);
-    height:120px;
+.hvr-radial-out:before {
+    background: rgba(0, 0, 0, .2);
+    height: 120px;
+}
+
+/* ---------------------------Footer------------*/
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
